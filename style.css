@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+.nav-centre{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+
+.nav-centre h4{
+    font-size: 25px;
+    width: 60vw;
+    text-align: center;
+
+}
+
+.nav-centre li{
+    padding-right: 100px;
+}
+
+.options{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+    font-size: 18px;
+}
+
+.disp{
+    top:500px ;
+    height: 100px;
+    font-size: 50px;
+    color: antiquewhite;
+    background-color: black;
+
+    position: absolute;
+    top: 50%;
+    width: 100vw;
+}
+
+.disp h2{
+    text-align: center;
+}
+
+.btn{
+    position: absolute;
+    top: 75%;
+    left: 43%;
+    
+}
+
+.btn-hero{
+    height: 100px;
+    width: 200px;
+    font-size: 40px;
+    border-radius: 30px;
+
+    background: transparent;
+    border: 2px black solid;
+    box-shadow: 5px 5px 50px black;
+}
